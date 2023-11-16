@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://lnct.ac.in/wp-content/uploads/2021/05/LNCT-Group-of-colleges-20-1024x576.jpg);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+.nav-area {
+	float:right;
+	list-style: none;
+	margin-top: 480px;
+	margin-right: 320px;
+}
+.nav-area li {
+	display:inline-table
+	
+}
+.nav-area li a {
+	
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+.nav-area li a:hover {
+	background: #fff;
+	color: #333;
+}
+
+
+.welcome-text {
+	position: absolute;
+	width: 600px;
+	
+	margin: 20% 30%;
+	text-align: top;
+}
+.welcome-text h1 {
+	text-align: center;
+	color: #ECDC18;
+	text-transform: uppercase;
+	font-size: 70px;
+	margin-top: -200px;
+	margin-right: 10px;
+}
+.welcome-text h1 span {
+	color: #00fecb;
+}
+img{
+	
+	position:absolute;
+	border-radius:5mm;
+	margin-left: 570px;
+	margin-top: 250px;
+	
+}
